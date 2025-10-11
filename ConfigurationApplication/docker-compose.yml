@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+    
+    # MongoDB'nin hazır olduğunu kontrol et
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.runCommand({ping: 1})", "--host", "localhost", "--port", "27017"]
+      interval: 5s
+      timeout: 2s
+      retries: 5
+
+  configuration-api:
+    build:
+      context: .
+      dockerfile: ConfigurationAPI/Dockerfile
+    container_name: configuration-api
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__MongoDB=mongodb://mongo:27017
+    
+    # Sadece mongo sağlıklıysa başla
+    depends_on:
+      mongo:
+        condition: service_healthy 
+
+  configuration-webui:
+    build:
+      context: .
+      dockerfile: ConfigurationWebUI/Dockerfile
+    container_name: configuration-webui
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - configuration-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - API_BASEURL=http://configuration-api:5000/api/
+
+volumes:
+  mongo_data:
