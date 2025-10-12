@@ -5,7 +5,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddHttpClient("configApi", client =>
 {
      var baseUrl = Environment.GetEnvironmentVariable("API_BASEURL") ?? "http://configuration-api:5000/api/";
-    client.BaseAddress = new Uri(baseUrl);
+     client.BaseAddress = new Uri(baseUrl);
 });
 
 var app = builder.Build();

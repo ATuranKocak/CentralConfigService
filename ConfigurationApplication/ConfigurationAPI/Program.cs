@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 string connectionString = builder.Configuration.GetConnectionString("MongoDB") ?? "mongodb://mongo:27017"; 
 
-// 2. Bu dinamik değeri MongoConfigurationRepository'ye gönder.
 builder.Services.AddSingleton<IConfigurationRepository>(new MongoConfigurationRepository(connectionString));
 
 builder.Services.AddControllers();

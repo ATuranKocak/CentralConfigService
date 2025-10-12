@@ -26,7 +26,7 @@ namespace ConfigurationWebUI.Pages
             _httpClientFactory = httpClientFactory;
         }
 
-        // 🔹 Listeleme (GET)
+        // Listeleme (GET)
         public async Task OnGetAsync()
         {
             await LoadConfigurationsAsync();
