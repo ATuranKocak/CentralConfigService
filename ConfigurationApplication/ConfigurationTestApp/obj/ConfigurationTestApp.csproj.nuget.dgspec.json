@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
         "projectName": "ConfigurationLibrary",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[3.5.0, )"
@@ -72,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj",
         "projectName": "ConfigurationTestApp",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationTestApp\\ConfigurationTestApp.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationTestApp\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationTestApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -94,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj"
+              "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj"
               }
             }
           }

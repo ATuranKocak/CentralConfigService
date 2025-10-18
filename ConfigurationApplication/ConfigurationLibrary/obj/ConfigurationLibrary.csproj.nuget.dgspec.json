@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
         "projectName": "ConfigurationLibrary",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,4 +8,8 @@ var configReader = new ConfigurationReader(
 
 string siteName = configReader.GetValue<string>("SiteName");
 
-Console.WriteLine($"SiteName değeri: {siteName}");
+for (; ; )
+{
+    Console.WriteLine($"SiteName değeri: {siteName}");
+}
+

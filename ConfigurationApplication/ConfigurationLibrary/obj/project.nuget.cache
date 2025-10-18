@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8YsoqxD3dlw=",
+  "dgSpecHash": "5p+m0l6glqE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\CentralConfigService\\ConfigurationApplication\\ConfigurationLibrary\\ConfigurationLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
